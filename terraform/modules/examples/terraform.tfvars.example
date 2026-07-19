@@ -1,0 +1,45 @@
+#############################################
+# AWS Configuration
+#############################################
+
+aws_region = "us-east-1"
+
+#############################################
+# EKS Cluster Configuration
+#############################################
+
+cluster_name = "terraform-eks-cluster"
+
+kubernetes_version = "1.33"
+
+#############################################
+# Environment
+#############################################
+
+environment = "dev"
+
+#############################################
+# Existing VPC
+#############################################
+
+vpc_id = "vpc-xxxxxxxxxxxxxxxxx"
+
+#############################################
+# Existing Private Subnets
+#############################################
+
+private_subnet_ids = [
+  "subnet-xxxxxxxxxxxxxxxx1",
+  "subnet-xxxxxxxxxxxxxxxx2",
+  "subnet-xxxxxxxxxxxxxxxx3"
+]
+
+#############################################
+# Existing Public Subnets
+#############################################
+
+public_subnet_ids = [
+  "subnet-yyyyyyyyyyyyyyyy1",
+  "subnet-yyyyyyyyyyyyyyyy2",
+  "subnet-yyyyyyyyyyyyyyyy3"
+]
